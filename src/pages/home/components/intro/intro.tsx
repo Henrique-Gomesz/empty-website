@@ -1,6 +1,14 @@
+import { BlueTitle, Title, TitleWrapper, Wrapper } from "./intro.styles";
 
 export const Intro = () => {
-    return (
-        
-    );
+  return (
+    <Wrapper>
+      <TitleWrapper>
+        <Title>
+          Desde <BlueTitle>1987</BlueTitle> formando profissionais e dominando o
+          mercado de <BlueTitle>T.I</BlueTitle>
+        </Title>
+      </TitleWrapper>
+    </Wrapper>
+  );
 };

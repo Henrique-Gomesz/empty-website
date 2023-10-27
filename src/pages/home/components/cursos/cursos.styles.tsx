@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   border-radius: 0 0 10px 10px;
   background: #D9D9D9;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1000px;
 `;
 
 export const TiposWrapper = styled.div`
