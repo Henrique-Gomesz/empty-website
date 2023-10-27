@@ -11,9 +11,9 @@ import {
 import LogoFipp from "../../assets/images/logo-fipp.png";
 
 import LogoUnoeste from "../../assets/images/logo-unoeste.png";
+import { MobileNavbar } from "./mobile-navbar";
 
 export const Navbar = () => {
-  
   function onButtonPress() {
     window.open("https://www.unoeste.br/");
   }
@@ -36,6 +36,7 @@ export const Navbar = () => {
             </Button>
           </ListItem>
         </List>
+        <MobileNavbar />
       </Nav>
     </Wrapper>
   );

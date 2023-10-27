@@ -1,14 +1,16 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
   border-radius: 0px 0px 10px 10px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   position: fixed;
   left: 0;
-  top: 0;`;
+  top: 0;
+  z-index: 10;
+`;
 
 export const Nav = styled.nav`
   width: 100%;
@@ -19,8 +21,7 @@ export const Nav = styled.nav`
   box-sizing: border-box;
 `;
 
-export const Image = styled.img`
-`;
+export const Image = styled.img``;
 
 export const List = styled.ul`
   display: flex;
@@ -37,14 +38,14 @@ export const ListItem = styled.li`
 
 export const NavLink = styled(Link)`
   text-decoration: none;
-  color: #0F324D;
+  color: #0f324d;
   font-size: 25px;
   font-weight: 600;
   padding: 25px 8px;
 `;
 
 export const Button = styled.button`
-  background: #0F324D;
+  background: #0f324d;
   color: #fff;
   border-radius: 8px;
   padding: 6px 20px;
@@ -64,7 +65,7 @@ export const Bar = styled.span`
   display: block;
   width: 50px;
   height: 4px;
-  background-color: #1D1C3E;
+  background-color: #1d1c3e;
   border-radius: 5px;
   position: absolute;
   transition: all 0.5s ease-in-out;
@@ -75,7 +76,7 @@ export const MobileNavItem = styled.div`
   position: absolute;
   top: 70px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(0, 0, 0, 0.6);
   height: 100vh;
 `;
 
@@ -87,9 +88,7 @@ export const MobileList = styled.ul`
 
 export const MobileNavLink = styled(Link)`
   text-decoration: none;
-  color: #0F324D;
+  color: #0f324d;
   font-size: 25px;
   font-weight: 600;
 `;
-
-
